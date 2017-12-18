@@ -1,0 +1,47 @@
+- Final Fantasy like Combat System
+- Actual Map System
+- Items?
+- Random Encounters
+- Random generated map? In new Window?
+- Leveling System?
+- Healthbars?
+- Random enemy names?
+
+- Dungeon Crawler
+- Not big tho
+
+
+- Big Focus on Interactive Map System and Combat System -> As long as that works game is cool
+
+MAP
+Rooms can be just single space meaning Rooms are Generally Hallways
+Hallway
+**HallwayNW
+**HallwayNS
+**HallwayNE
+**HallwayN
+**HallwayW
+**HallwayWE
+**HallwayWS
+**HallwayS
+**HallwaySE
+**HallwayE
+
+With random encounters, less different rooms have to be created, meaning less programming.
+Final Boss fight needs to be done
+
+
+FIGHTING SYSTEM
+System based on Health only. Special attacks that cost health give certain advantages.
+This is something I haven't seen yet and could potentially make the game more interesting than
+"Hey lets do a manasystem".
+Armor to support health though.
+Actions avaiable would be 'Attack, Special Move, Item, Run'.
+
+Pawn - General Object every character can use, with health variable, armor variable, itemlist and attack stats
+*Player character
+*Enemy - Let's do 3 enemy types? Weak, Elite and the Big Boss. Maybe load in graphic from txt, since that one doesn't change.
+
+
+SOURCES
+- ASCII Monster -> http://chris.com/ascii/index.php?art=creatures/monsters
