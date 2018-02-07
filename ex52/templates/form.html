@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% block body %}
+
+{% if descision==1 %}
+<form action="/" method="POST">
+  <h1>Welcome to the Dwarf Fortress!</h1>
+  <h2>This was only for testing.</h2>
+  <input type="submit" name='A' value="You want to start again?">
+  <input type="submit" name='A' value="You want to quit again?">
+
+</form>
+
+
+{% elif descision==2 %}
+ <h1>Sad</h1>
+{%else%}
+<h1>Nothing</h1>
+{%endif%}
+
+{% endblock %}

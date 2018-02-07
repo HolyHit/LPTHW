@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+{% block body %}
+
+
+
+<form action="/fight" method="POST">
+  <h1>You are currently in a fight!!</h1>
+  {% if ME %}
+  <h2>{{ ME }}</h2>
+
+  {% endif %}
+  <h3>{{ PD }} </h3>
+  <h3>{{ ED }}</h3>
+  <input type="submit" name='A' value="Basic Attack">
+
+  <br />
+  <br />
+
+  <select name="Item_1">
+      <option value="Berserk">Berserk Mode</option>
+      <option value="Throw">Throw</option>
+      <input type="submit" name='A' value="Use Special Move">
+  </select>
+
+  <br />
+  <br />
+
+  <input type="submit" name='A' value="Health Potion">
+
+  <br />
+  <br />
+
+  <input type="submit" name='A' value="Flee">
+
+  <br />
+  <br />
+
+</form>
+
+
+
+
+{% endblock %}
