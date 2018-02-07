@@ -123,7 +123,7 @@ def fightdescision():
             print "Already did that."
             Message = "You're already Berserking around. Round wasted!"
         enemy1.basic_attack(player1)
-        print ("YOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO") #Testing to see why the next move doesn't work
+        print ("YOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO") #Testing to see why the next move doesn't work (EDIT: It now works)
         return redirect(url_for('fight'))
 
     elif request.form["Item_1"] == "Throw":
